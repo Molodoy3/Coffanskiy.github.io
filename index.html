@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffanskiy</title>
+    <link rel="stylesheet" href="css/style.min.css?_v=20230130223600">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap&_v=20230130223600" rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+    <div class='header__container'>
+        <a href="index.html" class="header__logo logo">COFFANSKIY</a>
+        <div class='header__menu menu'>
+            <div class='menu__icon'>
+                <span></span>
+            </div>
+            <nav class='menu__body'>
+                <ul class='menu__list'>
+                    <li><a data-goto="#about" href='' class='menu__link'>о нас</a></li>
+                    <li><a data-goto="#mobile-coffee" href='' class='menu__link'>ВЫЕЗДНАЯ КОФЕЙНЯ</a></li>
+                    <li><a data-goto="#barista-school" href='' class='menu__link'>ШКОЛА БАРИСТА</a></li>
+                    <li><a data-goto="#services-for-coffee" href='' class='menu__link'>УСЛУГИ ДЛЯ КОФЕЕН</a></li>
+                    <li><a data-goto="#contacts" href='' class='menu__link'>КОНТАКТЫ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+        <div class="page">
+            <section class="welcome anim-item">
+                <div class="welcome__background">
+                    <picture>
+                        <source srcset='img/welcome/background.webp' type='image/webp'>
+                        <img src='img/welcome/background.jpg' alt='background'>
+                    </picture>
+                </div>
+                <div class="welcome__body">
+                    <h1 class="welcome__title">Лаборатория кофе COFFANSKIY</h1>
+                    <a data-goto="#barista-school" href="" class="welcome__button button">Обучение</a>
+                    <div class="welcome__scroll-bottom">
+                        <div class="welcome__arrow"><img src='img/icons/sprite.svg#arrow' alt='arrow'></div>
+                    </div>
+                </div>
+            </section>
+            <section class="about" id="about">
+                <div class='about__container'>
+                    <div class="about__text-block">
+                        <h2 class="about__title title anim-item">О нашей компании</h2>
+                        <div class="about__text text anim-item">
+                            Организация кофеен на мероприятиях , форумах , банкетах, конференциях, фуршетах
+                            Обучение бариста по международным стандартам
+                            Помощь в создании кофеен , консультации, индивидуальный подход к каждому предприятию
+                        </div>
+                    </div>
+                    <div class="about__images anim-item">
+                        <a href="img/about/01.webp" class="about__item" data-fslightbox='gallery'>
+                            <div class="about__image">
+                                <picture>
+                                    <source srcset='img/about/01.webp' type='image/webp'>
+                                    <img src='img/about/01.jpg' alt='image'>
+                                </picture>
+                            </div>
+                        </a>
+                        <a href="img/about/02.webp" class="about__item" data-fslightbox='gallery'>
+                            <div class="about__image">
+                                <picture>
+                                    <source srcset='img/about/02.webp' type='image/webp'>
+                                    <img src='img/about/02.jpg' alt='image'>
+                                </picture>
+                            </div>
+                        </a>
+                        <a href="img/about/03.webp" class="about__item" data-fslightbox='gallery'>
+                            <div class="about__image">
+                                <picture>
+                                    <source srcset='img/about/03.webp' type='image/webp'>
+                                    <img src='img/about/03.jpg' alt='image'>
+                                </picture>
+                            </div>
+                        </a>
+                        <a href="img/about/04.webp" class="about__item" data-fslightbox='gallery'>
+                            <div class="about__image">
+                                <picture>
+                                    <source srcset='img/about/04.webp' type='image/webp'>
+                                    <img src='img/about/04.jpg' alt='image'>
+                                </picture>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section class="team">
+                <div class='team__container'>
+                    <h3 class="team__title title anim-item">Познакомьтесь с нашей командой</h3>
+                    <div class="team__row">
+                        <div class="team__item anim-item">
+                            <a href="img/team/01.webp" class="team__image" data-fslightbox='team'>
+                                <picture>
+                                    <source srcset='img/team/01.webp' type='image/webp'>
+                                    <img src='img/team/01.jpg' alt='teamait'>
+                                </picture>
+                            </a>
+                            <h5 class="team__name">Алексей Прокопенков </h5>
+                            <div class="team__status">Шеф-бариста, главный тренер и основатель лаборатории </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="columns-block" id="mobile-coffee">
+                <div class='columns-block__container'>
+                    <h3 class="columns-block__main-title title anim-item">Выездная кофейня</h3>
+                    <div class="columns-block__row">
+                        <div class="columns-block__item">
+                            <div class="columns-block__image anim-item">
+                                <picture>
+                                    <source srcset='img/ВыезднаяКофейня/01.webp' type='image/webp'>
+                                    <img src='img/ВыезднаяКофейня/01.jpg' alt='Выездная кофейня'>
+                                </picture>
+                            </div>
+                            <h5 class="columns-block__title anim-item">Выездная кофейня до 150 человек</h5>
+                            <div class="columns-block__price anim-item">23 000₽</div>
+                            <div class="columns-block__text-block text-block-columns-block anim-item">
+                                <div class="text-block-columns-block__title">Выездная кофейня на мероприятии
+                                    численностью до
+                                    150 гостей</div>
+                                <div class="text-block-columns-block__label">В стоимость включено:</div>
+                                <ul class="text-block-columns-block__list">
+                                    <li>Работа одного бариста</li>
+                                    <li>Классическое меню (обем до 250мл)☕</li>
+                                    <li>Эспрессо</li>
+                                    <li>Американо</li>
+                                    <li>Капучино</li>
+                                    <li>Латтэ</li>
+                                    <li>Флэт-уайт</li>
+                                    <li>Какао</li>
+                                    <li>3 сиропа на выбор</li>
+                                </ul>
+
+                                <div class="text-block-columns-block__text">
+                                    <p>
+                                        Заказывать не позднее чем за 2 суток до мероприятия (предоплата 50% остальное по
+                                        факту
+                                        выезда до начала мероприятия)
+                                    </p>
+                                    <p>
+                                        Обязательное условие: наличие розетки 220вольт не менее чем в 1.5м от места где
+                                        будет
+                                        находится кофейня
+                                    </p>
+                                </div>
+                                <div class="text-block-columns-block__label">Как заказать:</div>
+                                <div class="text-block-columns-block__text">
+                                    На подготовку достаточно 1-2 дней: если планируете мероприятие например в среду —
+                                    предупредите нас в понедельник до конца рабочего дня
+                                </div>
+                            </div>
+                            <a data-goto="#contacts" href=""
+                                class="columns-block__button button anim-item">Подробнее</a>
+                        </div>
+                        <div class="columns-block__item">
+                            <div class="columns-block__image anim-item">
+                                <picture>
+                                    <source srcset='img/ВыезднаяКофейня/01.webp' type='image/webp'>
+                                    <img src='img/ВыезднаяКофейня/01.jpg' alt='Выездная кофейня'>
+                                </picture>
+                            </div>
+                            <h5 class="columns-block__title anim-item">Выездная кофейня до 400 человек</h5>
+                            <div class="columns-block__price anim-item">38 000₽</div>
+                            <div class="columns-block__text-block text-block-columns-block anim-item">
+                                <div class="text-block-columns-block__title">Выездная кофейня на мероприятии
+                                    численностью до
+                                    150 гостей</div>
+                                <div class="text-block-columns-block__label">В стоимость включено:</div>
+                                <ul class="text-block-columns-block__list">
+                                    <li>Работа одного бариста</li>
+                                    <li>Классическое меню (обем до 250мл)☕</li>
+                                    <li>Эспрессо</li>
+                                    <li>Американо</li>
+                                    <li>Капучино</li>
+                                    <li>Латтэ</li>
+                                    <li>Флэт-уайт</li>
+                                    <li>Какао</li>
+                                    <li>3 сиропа на выбор</li>
+                                </ul>
+
+                                <div class="text-block-columns-block__text">
+                                    <p>
+                                        Заказывать не позднее чем за 2 суток до мероприятия (предоплата 50% остальное по
+                                        факту
+                                        выезда до начала мероприятия)
+                                    </p>
+                                    <p>
+                                        Обязательное условие: наличие розетки 220вольт не менее чем в 1.5м от места где
+                                        будет
+                                        находится кофейня
+                                    </p>
+                                </div>
+                            </div>
+                            <a data-goto="#contacts" href=""
+                                class="columns-block__button button anim-item">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="columns-block" id="barista-school">
+                <div class='columns-block__container'>
+                    <h3 class="columns-block__main-title title anim-item">Школа бариста</h3>
+                    <div class="columns-block__row">
+                        <div class="columns-block__item">
+                            <div class="columns-block__image anim-item">
+                                <picture>
+                                    <source srcset='img/ШколаБариста/01.webp' type='image/webp'>
+                                    <img src='img/ШколаБариста/01.jpg' alt='Школа бариста'>
+                                </picture>
+                            </div>
+                            <h5 class="columns-block__title anim-item">Курс бариста БАЗОВЫЙ</h5>
+                            <div class="columns-block__price anim-item">9000₽</div>
+                            <div class="columns-block__text-block text-block-columns-block anim-item">
+                                <div class="text-block-columns-block__text">
+                                    <p>
+                                        Он предназначен для овладения с основными навыками бариста для тех, кто пока не
+                                        имеет опыта работы с кофе.
+                                    </p>
+                                    <p>
+                                        Продолжительность курса 12часов (8 занятий по 1,5 часа )
+                                    </p>
+                                </div>
+                                <div class="text-block-columns-block__label">Задачи курса:</div>
+                                <ul class="text-block-columns-block__list">
+                                    <li>Познакомиться с профессиональных кофейным оборудованием</li>
+                                    <li>Научиться настраивать оборудование для</li>
+                                    <li>достижения оптимального профиля вкуса</li>
+                                    <li>Овладеть основами последовательного</li>
+                                    <li>приготовления эспрессо</li>
+                                    <li>Овладеть техникой взбивания молока и приготовления молочных напитков на основе
+                                        эспрессо.</li>
+                                    <li>Научиться правильно организовать работу в эспрессо-баре.</li>
+                                </ul>
+                                <div class="text-block-columns-block__label">
+                                    Программа курса:
+                                </div>
+                                <ul class="text-block-columns-block__list">
+                                    <li>Виды кофе. Произрастание/сбор/обработка/обжарка кофейного зерна.</li>
+                                    <li>Кофейное оборудование и принципы работы с ним.
+                                        Настройка помола.</li>
+                                    <li>Распределение и темперовка молотого кофе.</li>
+                                    <li>Приготовление эспрессо.</li>
+                                    <li>Управление рабочим пространством. Ротация в баре (сырье, посуда)</li>
+                                    <li>Работа с молоком. Стандарты взбивания молока для капучино и латте.</li>
+                                    <li>Дегустация элементов напитка.</li>
+                                    <li>Чистка кофейного оборудования, техническое обслуживание и устранение
+                                        неисправностей.</li>
+                                </ul>
+                            </div>
+                            <a data-goto="#form" href="" class="columns-block__button button anim-item">Записаться на
+                                курс</a>
+                        </div>
+                        <div class="columns-block__item">
+                            <div class="columns-block__image anim-item">
+                                <picture>
+                                    <source srcset='img/ШколаБариста/02.webp' type='image/webp'>
+                                    <img src='img/ШколаБариста/02.jpg' alt='Школа бариста'>
+                                </picture>
+                            </div>
+                            <h5 class="columns-block__title anim-item">Курс бариста ПРОДВИНУТЫЙ</h5>
+                            <div class="columns-block__price anim-item">16 000₽</div>
+                            <div class="columns-block__text-block text-block-columns-block anim-item">
+                                <div class="text-block-columns-block__text">
+                                    <p>
+                                        Продвинутый уровень подходит для тех, кто уже работает в кофейной индустрии и
+                                        твердо владеет базовыми навыками. Для этого уровня рекомендуется опыт работы с
+                                        профессиональным кофейным оборудованием «в полевых условиях».
+                                    </p>
+                                </div>
+                                <div class="text-block-columns-block__label">Задачи Продвинутого курса:</div>
+                                <ul class="text-block-columns-block__list">
+                                    <li>Осознанно управлять множеством переменных, влияющих на экстракцию эспрессо</li>
+                                    <li>Повысить качество распределения и трамбовки молотого кофе</li>
+                                    <li>Усовершенствовать сенсорные навыки в оценке эспрессо
+                                    </li>
+                                    <li>Улучшить техники взбивания молока и латте-арта
+                                    </li>
+                                    <li>Научиться правильно выстраивать рабочие процессы в эспрессо-баре, организовывать
+                                        работу сотрудников и управлять финансами.
+                                    </li>
+                                </ul>
+                                <div class="text-block-columns-block__label">
+                                    Программа курса:
+                                </div>
+                                <ul class="text-block-columns-block__list">
+                                    <li>Происхождение кофе, его ботанические разновидности, умение определять кофе на
+                                        основе происхождения и метода обработки.
+                                    </li>
+                                    <li>Принципы правильной организации и эргономики работы в кофейне с акцентом на
+                                        оптимизацию, производительность, качество и скорость работы бариста.
+                                    </li>
+                                    <li>Улучшение техники распределения и трамбовки молотого кофе с использованием
+                                        различных аксессуаров, которые помогают контролировать качество и стабильность
+                                        приготовления эспрессо
+                                    </li>
+                                    <li>Сенсорные аспекты эспрессо: способность определять качество каждого сенсорного
+                                        атрибута эспрессо
+                                    </li>
+                                    <li>Молоко: состав, текстура, современные техники взбивания коровьего и
+                                        растительного молока, контроль качества
+                                    </li>
+                                    <li>Практика и совершенствование базовых элементов латте-арта: сердце, розетта и /
+                                        или тюльпан
+                                    </li>
+                                </ul>
+                            </div>
+                            <a data-goto="#form" href="" class="columns-block__button button anim-item">Записаться на
+                                курс</a>
+                        </div>
+                        <div class="columns-block__item">
+                            <div class="columns-block__image anim-item">
+                                <picture>
+                                    <source srcset='img/ШколаБариста/03.webp' type='image/webp'>
+                                    <img src='img/ШколаБариста/03.jpg' alt='Школа бариста'>
+                                </picture>
+                            </div>
+                            <h5 class="columns-block__title anim-item">Альтернативные методы заваривания</h5>
+                            <div class="columns-block__price anim-item">5000₽</div>
+                            <div class="columns-block__text-block text-block-columns-block anim-item">
+                                <div class="text-block-columns-block__text">
+                                    <p>
+                                        Программа разработана для желающих освоить способы приготовления кофе различными
+                                        альтернативными методами.*
+                                        *Альтернативными, то есть без использования эспрессо-машины.</p>
+                                    <p>
+                                        Программа включает в себя 8 часов интенсивных занятий в полностью оборудованном
+                                        тренинг-центре. По окончании занятий Вы освоите навыки заваривания большинства
+                                        современных альтернативных методов: от уже ставших классическими (пуровер ,
+                                        кемекс, френч пресс, аэропресс) Также вы познакомитесь с историей создания
+                                        различных девайсов для заваривания кофе и принципами их работы.
+                                    </p>
+                                </div>
+                                <div class="text-block-columns-block__label">Задачи Продвинутого курса:</div>
+                                <ul class="text-block-columns-block__list">
+                                    <li>Осознанно управлять множеством переменных, влияющих на экстракцию эспрессо</li>
+                                    <li>Повысить качество распределения и трамбовки молотого кофе</li>
+                                    <li>Усовершенствовать сенсорные навыки в оценке эспрессо
+                                    </li>
+                                    <li>Улучшить техники взбивания молока и латте-арта
+                                    </li>
+                                    <li>Научиться правильно выстраивать рабочие процессы в эспрессо-баре, организовывать
+                                        работу сотрудников и управлять финансами.
+                                    </li>
+                                </ul>
+                                <div class="text-block-columns-block__label">
+                                    Основные темы:
+                                </div>
+                                <ul class="text-block-columns-block__list">
+                                    <li>Описание основных подходов в фильтровом методе.
+                                    </li>
+                                    <li>Чем отличаются альтернативные методы заваривания кофе?
+                                    </li>
+                                    <li>Сэнсорный анализ фильтр кофе. Физиология вкуса.
+                                    </li>
+                                    <li>Что влияет на вкус в кофе
+                                    </li>
+                                    <li>Экстрактивность и TDS. Работа с рефрактометром.
+                                    </li>
+                                    <li>Подбор рецепта, расчет коэффициента заваривания.
+                                    </li>
+                                    <li>Влияние температуры на изменение рецепта.
+                                    </li>
+                                    <li>Работа с методами pour over.
+                                    </li>
+                                    <li>Работа с иммерсионными методами.
+                                    </li>
+                                    <li>Сравнительный анализ различных методов,
+                                    </li>
+                                    <li>Влияние воды на итоговый вкус напитка.
+                                    </li>
+                                </ul>
+                            </div>
+                            <a data-goto="#form" href="" class="columns-block__button button anim-item">Записаться на
+                                курс</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="columns-block" id="services-for-coffee">
+                <div class='columns-block__container'>
+                    <h3 class="columns-block__main-title title anim-item">Услуги для кофеен</h3>
+                    <div class="columns-block__row">
+                        <div class="columns-block__item">
+                            <div class="columns-block__image anim-item">
+                                <picture>
+                                    <source srcset='img/УслугиДляКофеен/01.webp' type='image/webp'>
+                                    <img src='img/УслугиДляКофеен/01.jpg' alt='Услуги для кофеен'>
+                                </picture>
+                            </div>
+                            <h5 class="columns-block__title anim-item">Подбор поставщиков и оборудования</h5>
+                            <div class="columns-block__price anim-item">От 7000₽</div>
+                            <div class="columns-block__text-block text-block-columns-block anim-item">
+                                <div class="text-block-columns-block__text">
+                                    <p>
+                                        Поможем подобрать поставщиков оборудования (кофемашины, кофемолки, фильтровая
+                                        система, бойлеры, фильтр-аппараты), сырья (молоко, кофе, сиропы), а также посуды
+                                        (одноразовой и керамики) и прочего инвентаря.
+                                    </p>
+                                    <p>
+                                        Расскажем о технических особенностях кофейного оборудования на современном
+                                        рынке, подборем подходящее оборудование под концепцию и бюджет данного
+                                        предприятия, составим перечень производителей и поставщиков сырья подходящих для
+                                        вашего предприятия
+                                    </p>
+                                </div>
+                            </div>
+                            <a data-goto="#form" href="" class="columns-block__button button anim-item">Подробнее</a>
+                        </div>
+                        <div class="columns-block__item">
+                            <div class="columns-block__image anim-item">
+                                <picture>
+                                    <source srcset='img/УслугиДляКофеен/02.webp' type='image/webp'>
+                                    <img src='img/УслугиДляКофеен/02.jpg' alt='Услуги для кофеен'>
+                                </picture>
+                            </div>
+                            <h5 class="columns-block__title anim-item">Оптимизация работы кофейни
+                            </h5>
+                            <div class="columns-block__price anim-item">От 10 000₽
+                            </div>
+                            <div class="columns-block__text-block text-block-columns-block anim-item">
+                                <ul class="text-block-columns-block__list">
+                                    <li>Оценка качества работы бариста
+                                    </li>
+                                    <li>Оптимизация рабочих процессов
+                                    </li>
+                                    <li>Исправление ошибок
+                                    </li>
+                                    <li>Консультирование
+                                    </li>
+                                    <li>Запуск кофейни
+                                    </li>
+                                </ul>
+                            </div>
+                            <a data-goto=".form" href="" class="columns-block__button button anim-item">Подробнее</a>
+                        </div>
+                        <div class="columns-block__item">
+                            <div class="columns-block__image anim-item">
+                                <picture>
+                                    <source srcset='img/УслугиДляКофеен/03.webp' type='image/webp'>
+                                    <img src='img/УслугиДляКофеен/03.jpg' alt='Услуги для кофеен'>
+                                </picture>
+                            </div>
+                            <h5 class="columns-block__title anim-item">Проектирование бара
+                                по запросу</h5>
+                            <div class="columns-block__text-block text-block-columns-block anim-item">
+                                <ul class="text-block-columns-block__list">
+                                    <li>Разработка и проектирование зоны бара
+                                    </li>
+                                    <li>грамотная расстановка оборудования и аксессуаров исходя из задач и дизайна
+                                        кофейни.
+                                    </li>
+                                </ul>
+                            </div>
+                            <a data-goto="#form" href="" class="columns-block__button button anim-item">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="form anim-item" id="form">
+                <div class="form__image">
+                    <picture>
+                        <source srcset='img/form/background.webp' type='image/webp'>
+                        <img src='img/form/background.png' alt='background'>
+                    </picture>
+                </div>
+                <div class='form__container'>
+                    <h3 class="form__title title anim-item">Заполните форму и мы с вами звяжемся</h3>
+                    <form action="#" class="form__body anim-item" name="submit" onsubmit="return false;">
+                        <!--! для отмены обновления при отправке -->
+                        <div class="form__item">
+                            <input class="form__input" name="name" placeholder="Имя" type="text">
+                        </div>
+                        <div class="form__item"><input class="form__input" name="last-name" placeholder="Фамилия"
+                                type="text">
+                        </div>
+                        <div class="form__item"><input class="form__input email req" name="email" placeholder="E-mail"
+                                type="email">
+                        </div>
+                        <div class="form__item"><input class="form__input req" name="tel" placeholder="Телефон"
+                                type="tel">
+                        </div>
+                        <div class="form__massage">
+                            <div class="form__true">Ваше письмо успешно отправлено!</div>
+                            <div class="form__false">Укажите почту и/или номер телефона</div>
+                        </div>
+                        <div class="form__item"><button class="form__button button" type="submit" name="submit"
+                                onclick="drawShelves(); return false;">Отправить</button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+            <div class="contacts anim-item" id="contacts">
+                <div class='contacts__container'>
+                    <div class="contacts__title">
+                        НАШИ КОНТАКТЫ
+                    </div>
+                    <div class="contacts__items">
+                        <div class="contacts__item"><a href="tel:+79126599698">+7 (912) 659 96 98</a></div>
+                        <div class="contacts__item"><a href="mailto:coffanskiy@gmail.com">coffanskiy@gmail.com</a></div>
+                        <div class="contacts__item">Адрес г. Екатеринбург</div>
+                    </div>
+                    <div class="contacts__label">Мы в социальных сетях:</div>
+                    <ul class="contacts__social-list">
+                        <li class="contacts__social-item"><a href="https://vk.com/coffanskiy" target="_blank"><img
+                                    src='img/icons/sprite.svg#vk' alt='vk'></a></li>
+                        <li class="contacts__social-item"><a href="https://t.me/coffanskiy" target="_blank"><img src='img/icons/sprite.svg#telegram' alt='telegram'></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <footer class="footer anim-item">
+    <div class='footer__container container'>
+        <nav class="footer__menu menu-footer">
+            <ul class="menu-footer__list">
+                <li><a data-goto="#about" href='' class='menu-footer__link'>о нас</a></li>
+                <li><a data-goto="#mobile-coffee" href='' class='menu-footer__link'>ВЫЕЗДНАЯ КОФЕЙНЯ</a></li>
+                <li><a data-goto="#barista-school" href='' class='menu-footer__link'>ШКОЛА БАРИСТА</a></li>
+                <li><a data-goto="#services-for-coffee" href='' class='menu-footer__link'>УСЛУГИ ДЛЯ КОФЕЕН</a></li>
+                <li><a data-goto="#contacts" href='' class='menu-footer__link'>КОНТАКТЫ</a></li>
+            </ul>
+        </nav>
+        <a href="index.html" class="footer__logo logo">COFFANSKIY</a>
+        <div class="footer__info info-footer">
+            <div class="info-footer__item">Лаборатория кофе COFFANSKIY 2022</div>
+            <div class="info-footer__item">Г.Екатеринбург</div>
+            <div class="info-footer__item"><a href="mailto:coffanskiy@gmail.com">coffanskiy@gmail.com</a></div>
+        </div>
+    </div>
+</footer>
+    </div>
+    <script src="js/app.min.js?_v=20230130223600"></script>
+</body>
+</html>

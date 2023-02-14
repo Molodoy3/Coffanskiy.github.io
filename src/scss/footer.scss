@@ -1,0 +1,88 @@
+.footer {
+    @include adaptiv-value('padding-top', 45, 30, 1);
+    @include adaptiv-value('padding-bottom', 45, 30, 1);
+    background-color: #222222;
+    color: #fff;
+    text-align: center;
+    &.active{
+        background-color: #171717;
+        transition: background-color 0.5s ease 0s;
+        .footer__menu{
+            transform: translateY(0);
+            opacity: 1;
+            transition: all 0.6s ease-in-out 0s;
+        }
+        .footer__logo{
+            transform: scale(1);
+            opacity: 1;
+            transition: all 0.6s ease-in-out 0.2s;
+        }
+        .footer__info{
+            opacity: 1;
+            transform: scale(1) translateY(0);
+            transition: all 0.6s ease-in-out 0.4s;
+        }
+    }
+    &__container {
+        overflow: hidden;
+    }
+
+    &__menu {
+        @include adaptiv-value('margin-bottom', 35, 25, 1);
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+
+    &__info {}
+
+    &__logo{
+        margin-bottom: em(35, 23);
+        display: block;
+        transform: scale(0);
+        opacity: 0;
+    }
+}
+.menu-footer {
+    &__list {
+        display: flex;
+        column-gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 5px;
+        li{
+            line-height: 140%;
+            text-transform: uppercase;
+            font-weight: 700;
+            font-size: rem(14);
+        }
+    }
+
+    &__link {
+        color: inherit;
+        @media (any-hover: hover) {
+            transition: color 0.3s ease-in-out 0s;
+            &:hover{
+                color: $orange;
+            }
+        }
+    }
+}
+.info-footer {
+    opacity: 0;
+    transform: scale(0) translateY(100px);
+    &__item {
+        color: rgb(155, 155, 155);
+        line-height: 140%;
+        margin-bottom: em(4, 12);
+        font-size: rem(12);
+        a{
+            color: inherit;
+            @media (any-hover: hover) {
+                transition: color 0.3s ease-in-out 0s;
+                &:hover{
+                    color: $orange;
+                }
+            }
+        }
+    }
+}
