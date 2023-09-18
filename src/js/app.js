@@ -66,11 +66,6 @@ window.onload = function () {
 
                 if ((scrollY > animItemOffset - animItemPoint) && scrollY < (animItemOffset + animItemHeight)) {
                     animItem.classList.add('active');
-                } else {
-                    if (!animItem.classList.contains('anim-no-hide')) {
-                        animItem.classList.remove('active');
-                    }
-
                 }
             }
         }
@@ -97,14 +92,14 @@ window.onload = function () {
                     method: 'POST',
                     body: formData
                 });
-                if(response.ok){
+                if (response.ok) {
                     const message = document.querySelector('.form__massage');
                     message.classList.add('true');
                     message.classList.remove('false');
                     form.classList.add('sended');
                     form.reset();
                     form.classList.remove('sending');
-                } else{
+                } else {
                     alert("Ошибка");
                     form.classList.remove('sending');
                 }
